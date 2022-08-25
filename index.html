@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="fr-FR">
+    <head>
+        <!-- Metadata(SEO) -->
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta property="og:keywords" content="meilleur Développeur web au monde, recherche de développeur web au cameroun, développeur camerounais, good web programmer, programmeur web, je veux un site web, ONANA vital, ABENG vital, développeur web camerounais, IT developer, front-end, frontend, designer web, freelance, agence digital,back-end, designer, visual studio,dev, 237 dev, tech 237, je veux un développeur web, dévloppeur web moins cher, site web moins cher, google developer, ONANA timothée, Développeur web frontend, backend, frontend, front-end, backend, back-end, développeur africain, best developer, meilleure développeuse, développement web, dev web, programmeur informatique, programmation informatique, " />
+        <meta name="robots" content="max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
+        <meta property="og:title" content ="ONANA vital | Développeur web JavaScript & PHP" />
+        <meta property="og:description" content="Je suis développeur web freelance depuis deux ans et chercheur en informatique. Je suis auteur de plusieurs prestations tels que: sites web, applications web pour des entreprises et des particuliers." />
+        <meta property="og:author" content="ONANA vital" />
+        <meta property="og:locale" content="fr_FR" />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://www.onanavital.com" />
+        <meta property="og:site_name" content="ONANA vital" />
+        <meta property="og:image" content="Img/avatar (8).jpg" />
+        <meta property="og:image:secure_url" content="Img/avatar (8).jpg" />
+        <!-- CSS link -->
+        <link rel="stylesheet" href="Design/style.css" />
+        <link rel="stylesheet" href="Design/responsive.css" />
+        <link rel="stylesheet" href="Assets/animate.css" />
+        <link rel="stylesheet" href="Assets/tailwind.min.css_1.3.5/tailwind.min.css" />
+        <link rel="stylesheet" href="Assets/fontawesome-free-6.0.0-beta3-web/css/fontawesome.min.css" />
+        <link rel="stylesheet" href="Assets/fontawesome-free-6.0.0-beta3-web/css/all.min.css" />
+        <link rel="stylesheet" href="Assets/fontawesome-free-6.0.0-beta3-web/css/brands.min.css" />
+        <link rel="stylesheet" href="Assets/fontawesome-free-6.0.0-beta3-web/css/regular.min.css" />
+        <link rel="stylesheet" href="Assets/fontawesome-free-6.0.0-beta3-web/css/v4-font-face.min.css" />
+        <link rel="stylesheet" href="Assets/fontawesome-free-6.0.0-beta3-web/css/fontawesome.min.css" />
+        <link rel="stylesheet" href="Assets/fontawesome-free-6.0.0-beta3-web/css/svg-with-js.min.css" />
+        <!-- Favicon -->
+        <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+        <!-- Title of document -->
+        <title>ONANA vital | Développeur web JavaScript & PHP</title>
+    </head>
+    <style>
+        *
+        {
+            font-family: Montserrat;
+        }
+        #developer-banner .text h1
+        {
+            font-family: cursive;
+            color: transparent;
+            background-clip: text;
+            -webkit-background-clip: text;
+            background-image: linear-gradient(rgb(214, 83, 35) 75%, rgba(1, 1, 16, 0.688) 25%);
+        }
+        #developer-banner .img
+        {
+            background-image: linear-gradient(rgba(1, 1, 16, 0.688) 95%, rgba(218, 90, 43, 0.944) 5%),
+            url('Img/avatar\ \(8\).jpg');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            background-position-y: top;
+            height: 70vh;
+            width: 600px;
+            transform: rotate(20deg);
+            cursor: pointer;
+            border-radius: 50%;
+            transition: var(--transition);
+            border: none;
+            animation: zoomIn 1.1s;
+            animation: zoomOn 5s infinite alternate;
+        }
+        #skills
+        {
+            clip-path: polygon(0 0, 100% 0, 100% 100%, 0 90%);
+        }
+        @media screen and (max-width: 624px)
+        {
+            *
+            {
+                font-family: Montserrat;
+                font-size: 13px;
+            }
+            nav
+            {
+                position: fixed;
+                top: 0;
+            }
+            nav li:nth-child(1),
+            nav li:nth-child(2),
+            nav li:nth-child(3)
+            {
+                display: none;
+            }
+            nav .navigation-btn a
+            {
+                display: block;
+                margin-left: -10em;
+            }
+            #developer-banner
+            {
+                display: block;
+                padding-top: 10em;
+            }
+            #developer-banner .img,
+            #circle
+            {
+                display: none;
+            }
+            #developer-banner .text
+            {
+                width: 350px;
+                margin-left: 1em;
+            }
+            #developer-banner .text h1
+            {
+                font-size: 50px;
+                font-family: cursive;
+                margin-bottom: 10px;
+            }
+            #developer-banner .text h3
+            {
+                line-height: 0.8;
+                font-size: 50px;
+            }
+            #developer-banner .text #btn a
+            {
+                line-height: 3;
+            }
+            #skills #content
+            {
+                display: block;
+                padding-left: 0;
+            }
+            #skills #content #part:nth-child(1),
+            #skills #content #part:nth-child(2)
+            {
+                width: 350px;
+                padding-left: 1em;
+                margin-bottom: 10px;
+            }
+            #projects #content,
+            #services #content
+            {
+                padding: 0;
+                display: block;
+                width: 100%;
+                grid-template-columns: repeat(auto-fill, 300px);
+            }
+            #services #content #card
+            {
+                margin-bottom: 15px;
+                width: 350px;
+            }
+            #projects #content #cards
+            {
+                width: 343px;
+            }    
+        }
+    </style>
+    <body>    
+        <!-- Laoding -->
+        <section class="loading">
+            <div id="loader"></div>
+        </section>
+        <main id="body"> 
+            <!-- Content of page -->
+            <!-- Navigation-Bar -->
+            <nav class="navigation-bar" id="navbar">
+                <div class="navigation-logo" title="ONANA vital - Développeur Web Full-Stack">OV</div>
+                <div class="navigation-link">
+                    <ul>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#skills">Compétences</a></li>
+                        <li><a href="#projects">Réalisations</a></li>
+                        <li class="navigation-btn shadow-lg">
+                            <a href="mailto:onanavital@outlook.com" style="color: #fff;">Me contacter</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+            <!-- Developer Banner -->
+            <section class="limit" id="developer-banner">
+                <div class="text">
+                    <h3>Hello moi c'est,</h3>
+                    <h1>ONANA vital</h1>
+                    <h4>Développeur Web JavaScript & PHP</h4>
+                    <p id="btn">
+                        <a href="Pdf/Profile.pdf" download="CV-Développeur_web" class="shadow-lg">Télécharger mon CV</a>
+                        <a href="mailto:onanavital@outlook.com">onanavital@outlook.com</a>
+                    </p>
+                </div>
+                <div id="circle"></div>
+                <div class="img"></div>
+            </section>
+            <!-- Services -->
+            <section class="limit" id="services">
+                <div id="title">
+                    <h2>Des services adaptés à vos besoins</h2>
+                </div>
+                <div id="content">
+                    <div id="card">
+                        <p id="img"><img src="Img/003-paint.png" alt="Icons" /></p>
+                        <h3>Intégration/Design</h3>
+                        <p>
+                            Concepteur et intégrateur de maquèttes avec un design sur mesure et qui reflète votre bussiness avec des technologies et des outils de pointes.
+                        </p>
+                        <br />
+                    </div>
+                    <div id="card">
+                        <p id="img"><img src="Img/001-data.png" alt="Icons" /></p>
+                        <h3>Développement</h3>
+                        <p>
+                            J'éffectue la refonte ou/et le développement des sites vitrines, e-commerce, portfolio, landing page. Je suis à votre écoute pour identifier vos besoins et vous proposer une solution adaptée.
+                        </p>
+                    </div>
+                    <div id="card">
+                        <p id="img"><img src="Img/005-repair.png" alt="Icons" /></p>
+                        <h3>Mainténance</h3>
+                        <p>
+                            Votre site web contient des bugs (érreurs) ? Besoin d'une mise à jour ? Faites appel à un proféssionnel de l'optimisation de vos codes sources.
+                        </p>
+                        <br /><br />
+                    </div>
+                </div>
+            </section>
+            <!-- Skills -->
+            <section class="limit" id="skills">
+                <div id="title">
+                    <h2>Des compétences aux services des clients</h2>
+                </div>
+                <div id="content">
+                    <div id="part">
+                        <p>
+                            Développeur Web Freelance et passionné de technologie. Je suis auteur de plusieurs prestations tels que: sites web, applications web pour des entreprises, particuliers et parfois à mon propre compte.
+                        </p>
+                        <br />
+                        <p>
+                            Mon champ de compétence comprend: Développement front-end (HTML, CSS, Bootstrap, Tailwind CSS, JQuery, JavaScript, Sass, Three.js), back-end (PHP, MySQL), référencement web naturel, Conception des maquettes (inVision Studio, Lunacy), et le déploiment (Git & Github, GitLab).
+                        </p>
+                        <br />
+                        <p id="btn">
+                            <a href="https://www.linkedin.com/in/vitaldev12">Mon Profil Linkedin</a>
+                        </p>
+                    </div>
+                    <div id="part">
+                        <div id="domains">
+                            <h3>Front-End</h3>
+                            <div id="stats"></div>
+                        </div>
+                        <div id="domains">
+                            <h3>Back-End</h3>
+                            <div id="stats"></div>
+                        </div>
+                        <div id="domains">
+                            <h3>Déploiement</h3>
+                            <div id="stats"></div>
+                        </div>
+                        <div id="domains">
+                            <h3>SEO naturel</h3>
+                            <div id="stats"></div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- Projects -->
+            <section class="limit" id="projects">
+                <div id="title">
+                    <h2>Quelques projets réalisés</h2>
+                </div>
+                <br /><br /><br /><br />
+                <div id="content">
+                    <div id="cards">
+                        <div id="img"></div>
+                        <div id="txt">
+                            <h3>Wiser Telecom</h3>
+                            <p>Intégration et Développement avec implémentation d'une API d'envoi de mails.</p>
+                            <p id="technos">
+                                <span>HTML/CSS</span>
+                                <span>ES6</span>
+                                <span>Bootstrap</span>
+                                <span>PHP 7</span>
+                                <span>JQUery</span>
+                            </p>
+                            <p id="btn">
+                                <a href="https://wisertelecom.com/" target="_blank">Visiter le site</a>
+                            </p>
+                        </div>
+                    </div>
+                    <div id="cards">
+                        <div id="img"></div>
+                        <div id="txt">
+                            <h3>Collège Le Samaritain</h3>
+                            <p>Développement entier d'un site web éducationnel en HTML5/CSS3/JavaScript.</p>
+                            <p id="technos">
+                                <span>HTML/CSS</span>
+                                <span>JavaScript</span>
+                                <span>PHP 7</span>
+                                <span>JQUery</span>
+                                <span>Bootstrap</span>
+                            </p>
+                            <p id="btn"><a href="https://">Visiter le site</a></p>
+                        </div>
+                    </div>
+                    <div id="cards">
+                        <div id="img"></div>
+                        <div id="txt">
+                            <h3>Learning Code's</h3>
+                            <p>Intégration et développement d'une plateforme d'e-Learning.</p>
+                            <p id="technos">
+                                <span>HTML/CSS</span>
+                                <span>ES6</span>
+                                <span>Bootstrap</span>
+                                <span>PHP 7</span>
+                                <span>JQUery</span>
+                            </p>
+                            <p id="btn"><a href="https://">Visiter le site</a></p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- Scroll Button Top -->
+            <button id="scrollTop" onclick="onTop();">
+                <span class="icon">↑</span>
+            </button>
+            <!-- Footer -->
+            <footer>
+                <div id="socials-networks">
+                    <a href="https://www.linkedin.com/in/vitaldev12"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://www.reddit.com/user/ONANA_vital"><i class="fa-brands fa-reddit"></i></a>
+                    <a href="https://twitter.com/onana_vital"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="https://github.com/ONANA12"><i class="fa-brands fa-github"></i></a>
+                    <br />
+                </div>
+                <span>
+                    <a href="tel:+237652148417">+237 6 52 14 84 17</a>
+                </span>
+                <br /><br />
+                <p>2022 &copy; <a href="mailto:onanavital@outlook.com">ONANA vital</a> - Yaoundé, Cameroun</p><br />
+                <p>Intégration et développement par ONANA vital</p>
+            </footer>
+        </main>
+        <!-- JavaScript Link -->
+        <script src="JS/Apps.js"></script>
+        <script src="Assets/scrollreveal/dist/scrollreveal.min.js"></script>
+        <script src="Assets/jquery-3.6.0.min.js"></script>
+        <script src="Assets/fontawesome-free-6.0.0-beta3-web/js/fontawesome.min.js"></script>
+        <script src="Assets/OwlCarousel2-2.3.4/src/js/owl.carousel.js"></script>
+        <script>
+            $(document).ready(function () {
+                /* Loading */
+                $(window).on('load', function () {
+                    $(".loading").fadeOut(1000);
+                    $("#body").fadeIn(1000);
+                });
+            });
+        </script>
+    </body>
+</html>
