@@ -1,1 +1,8 @@
 /* Responsive */
+@media screen and (max-width: 620px)
+  {
+    .loading
+    {
+      display: none;
+    }
+ }
