@@ -521,7 +521,7 @@ footer #socials-networks
 footer #socials-networks a i
 {
     color: #1f2235;
-    font-size: 2em;
+    font-size: 0.9em;
     margin: 10px;
     transition: var(--transition);
 }
